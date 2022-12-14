@@ -1,0 +1,15 @@
+{
+    "name": "Website-Blocker Chrome Extension",
+    "version": "1.0.3",
+    "manifest_version": 2,
+    "description": "Simple module based Website-Blocker for Google Chrome developed by Rohit",
+    "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    }
+}
